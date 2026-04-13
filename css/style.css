@@ -1946,3 +1946,23 @@ form label {
 .recados {
   padding: 5em 0;
 }
+
+body,
+p,
+li,
+a,
+input,
+button {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#fh5co-logo a {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  letter-spacing: 0.06em;
+}
