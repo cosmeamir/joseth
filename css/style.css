@@ -1906,6 +1906,13 @@ form label {
   letter-spacing: 0.2em;
 }
 
+.couple-signature {
+  font-family: "Delius Swash Caps", cursive !important;
+  text-transform: none !important;
+  letter-spacing: 0.08em !important;
+  font-weight: 400;
+}
+
 .hero-watercolor-content h1 span {
   color: #c08a4d;
   font-family: "Sacramento", cursive;
