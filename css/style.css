@@ -1841,3 +1841,47 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.section-paper.gifts {
+  padding: 5em 0;
+  background: #f5f1f1;
+}
+
+.gift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.gift-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.gift-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
+
+.gift-item h3 {
+  font-size: 24px;
+  margin: 14px 0 8px;
+}
+
+.gift-item p {
+  margin-bottom: 12px;
+}
+
+.gift-item button {
+  border: 0;
+  background: #cfada3;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-weight: 700;
+}
