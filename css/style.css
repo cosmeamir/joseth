@@ -1841,3 +1841,135 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.section-paper.gifts {
+  padding: 5em 0;
+  background: #f5f1f1;
+}
+
+.gift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.gift-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.gift-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
+
+.gift-item h3 {
+  font-size: 24px;
+  margin: 14px 0 8px;
+}
+
+.gift-item p {
+  margin-bottom: 12px;
+}
+
+.gift-item button {
+  border: 0;
+  background: #cfada3;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.wedding-nav {
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.hero-watercolor {
+  background-color: #faf8f5;
+  background-image: radial-gradient(circle at 15% 10%, rgba(214, 213, 208, 0.35), transparent 42%), radial-gradient(circle at 80% 40%, rgba(213, 225, 235, 0.35), transparent 45%);
+}
+
+.hero-watercolor .overlay {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.hero-watercolor-content h1,
+.hero-watercolor-content h2 {
+  color: #45505a !important;
+  letter-spacing: 0.2em;
+}
+
+.couple-signature {
+  font-family: "Aston Script", "Sacramento", cursive !important;
+  text-transform: none !important;
+  letter-spacing: 0.08em !important;
+  font-weight: 400;
+}
+
+.hero-watercolor-content h1 span {
+  color: #c08a4d;
+  font-family: "Sacramento", cursive;
+  font-size: 88px;
+  letter-spacing: normal;
+  vertical-align: middle;
+  margin: 0 16px;
+}
+
+.hero-watercolor-content h2 {
+  color: #c08a4d !important;
+  margin-top: 32px;
+}
+
+.hero-watercolor-art {
+  width: min(900px, 90%);
+  height: 340px;
+  margin: 0 auto 30px;
+  border-radius: 120px 25px 100px 35px;
+  background-image: linear-gradient(180deg, rgba(171, 212, 237, 0.68) 38%, rgba(76, 158, 200, 0.82) 40%, rgba(183, 228, 223, 0.75) 62%, rgba(238, 220, 184, 0.8) 76%), url("../images/img_bg_1.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  opacity: 0.86;
+}
+
+.hero-watercolor .btn.btn-default {
+  background: transparent;
+  color: #c08a4d;
+  border: 2px solid #c08a4d;
+}
+
+.hero-watercolor .btn.btn-default:hover {
+  background: #c08a4d;
+  color: #fff;
+}
+
+.recados {
+  padding: 5em 0;
+}
+
+body,
+p,
+li,
+a,
+input,
+button {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#fh5co-logo a {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  letter-spacing: 0.06em;
+}
